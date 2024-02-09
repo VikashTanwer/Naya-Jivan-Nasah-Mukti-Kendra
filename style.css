@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #C5FFF8;
+}
+
+
+.container{
+    background-color: #5FBDFF;
+    width: 100%vw;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+p{
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#type{
+    border: none;
+    background-color: #5FBDFF;
+    /* border: 1px solid #5FBDFF; */
+    height: 70%;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.imgs{
+    height: 300px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#img1{
+    height: 30%;
+    width: 30%;
+    border: 1px solid black;
+    background-image: url("1.jpg");
+    background-size: cover;
+    border-radius: 2px;
+}
+
+#img2{
+    height: 30%;
+    width: 30%;
+    border: 1px solid black;
+    background-image: url("2.jpg");
+    background-size: cover;
+    border-radius: 2px;
+}
+
+#img3{
+    height: 30%;
+    width: 30%;
+    border: 1px solid black;
+    background-image: url("3.jpg");
+    background-size: cover;
+    border-radius: 2px;
+}
+
+#img4{
+    height: 30%;
+    width: 30%;
+    border: 1px solid black;
+    background-image: url("4.jpg");
+    background-size: cover;
+    border-radius: 2px;
+}
+
+#img5{
+    height: 30%;
+    width: 30%;
+    border: 1px solid black;
+    background-image: url("5.jpg");
+    background-size: cover;
+    border-radius: 2px;
+}
+
+#img6{
+    height: 30%;
+    width: 30%;
+    border: 1px solid black;
+    background-image: url("6.jpg");
+    background-size: cover;
+    border-radius: 2px;
+}
+
+#img7{
+    height: 30%;
+    width: 30%;
+    border: 1px solid black;
+    background-image: url("7.jpg");
+    background-size: cover;
+    border-radius: 2px;
+}
+
+#img8{
+    height: 30%;
+    width: 30%;
+    border: 1px solid black;
+    background-image: url("8.jpg");
+    background-size: cover;
+    border-radius: 2px;
+}
+
+#img9{
+    height: 30%;
+    width: 30%;
+    border: 1px solid black;
+    background-image: url("9.jpg");
+    background-size: cover;
+    border-radius: 2px;
+}
+
+.heading{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.cont{
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#ig img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+#fb img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+#wa img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+#Address{
+    color: black;
+    font-size: 20px;
+}
+
+footer{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feedback{
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+}
